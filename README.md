@@ -16,5 +16,6 @@ These are personal projects on synthetic data. None of them contain code or data
 - [aws-serverless-data-lake](https://github.com/DruvaSaiKumar/aws-serverless-data-lake): Firehose to S3 to Lambda to partitioned Parquet, queried in Athena, all in Terraform. Bad records go to quarantine.
 - [lakehouse-kimball-pipeline](https://github.com/DruvaSaiKumar/lakehouse-kimball-pipeline): a PySpark silver layer, a dbt star schema with a Type 2 dimension, and an Airflow DAG. CI checks the Spark output against a separate DuckDB implementation.
 - [dq-lineage-toolkit](https://github.com/DruvaSaiKumar/dq-lineage-toolkit): YAML data-quality checks, column-level lineage from SQL, impact analysis and a check-coverage report.
+- [kafka-clickstream-pipeline](https://github.com/DruvaSaiKumar/kafka-clickstream-pipeline): a producer and consumer on confluent-kafka that validate, deduplicate and sessionize clickstream events in real time, with a dead-letter topic and a Parquet sink. Runs against a real Kafka broker in CI, not mocked.
 
 Each README says what has and hasn't been run against real cloud services.
