@@ -2,7 +2,7 @@
 
 Senior Data Engineer in Dallas, TX. I've spent 8+ years building and migrating ETL/ELT pipelines and data platforms on AWS, GCP and Hadoop, and most of my recent work is moving legacy Teradata, SAS and Informatica workloads to BigQuery. I care most about being able to show that a pipeline's output is correct.
 
-[LinkedIn](https://www.linkedin.com/in/druva-bobbilla-069412191/)
+[Portfolio](https://druvasaikumar.github.io) · [LinkedIn](https://www.linkedin.com/in/druva-bobbilla-069412191/)
 
 ## Stack
 
